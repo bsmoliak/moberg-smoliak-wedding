@@ -1,26 +1,35 @@
-<section id="two" class="wrapper alt style2">
-
-	{% for post in site.posts limit:site.tiles-count %}{% if site.tiles-source == 'posts' %}
-
-	<section class="spotlight">
-		<div class="image">{% if post.image %}<img src="{% if site.featured-image-source %}{{ post.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ post.image }}{% endif %}" alt="" />{% endif %}</div>
-		<div class="content">
-			<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2>
-			<p>{{ post.description }}</p>
-		</div>
-	</section>
-
-	{% endif %}{% endfor %}
-	{% for page in site.pages limit:site.tiles-count %}{% if site.tiles-source == 'pages' %}{% if page.layout == 'default' %}{% continue %}{% endif %}
-
-	<section class="spotlight">
-		<div class="image">{% if page.image %}<img src="{% if site.featured-image-source %}{{ page.image | prepend: site.featured-image-source | absolute_url }}{% else %}{{ "" | absolute_url }}/assets/images/{{ page.image }}{% endif %}" alt="" />{% endif %}</div>
-		<div class="content">
-			<h2><a href="{{ page.url | relative_url }}" class="link">{{ page.title }}</a></h2>
-			<p>{{ page.description }}</p>
-		</div>
-	</section>
-
-	{% endif %}{% endfor %}
-
+<!-- Three -->
+<section id="three" class="wrapper style1 special">
+	<div class="inner">
+		<header class="major">
+			<h2>Information Kiosk</h2>
+			<p>Check out the cards below to learn where to find more information on important topics.</p>
+		</header>
+		<ul class="features">
+			<li class="icon fa-hotel">
+				<h3>Lodging</h3>
+				<p>A hotel block was setup at the <a href="https://www.marriott.com/en-us/hotels/mspsp-minneapolis-marriott-west/overview/">Minneapolis Marriott West</a>, less than 10 minutes from the wedding venue. The block rate is no longer available, however you can still book a room.</p>
+			</li>
+			<li class="icon fa-gift">
+				<h3>Gifts</h3>
+				<p>The bridge & groom are registered on <a href="https://www.hitchd.com/nightgardeners">hitchd.com</a>. They found it simpler and easier to include experiences in addition to things.</p>
+			</li>
+			<li class="icon fa-bus">
+				<h3>Transportation</h3>
+				<p>Bike parking and car parking are available at the venue. Rideshare is encouraged between the hotel and venue. See "Getting There" for details.</p>
+			</li>
+			<li class="icon fa-building-o">
+				<h3>Venue</h3>
+				<p>The wedding and reception will both be held at Westwood Hills Nature Center, a park in the western Twin Cities Metro Area.</p>
+			</li>
+			<li class="icon fa-map-o">
+				<h3>Program</h3>
+				<p>The wedding ceremony will start shortly after 4:00pm, followed by social hour at 5:00pm, dinner at 6:15pm, and dessert/dancing by 8:00pm.</p>
+			</li>
+			<li class="icon fa-envelope-o">
+				<h3>RSVP</h3>
+				<p>You have likely responded to the RSVP already. If you still need it, here is the <a href="https://form.typeform.com/to/GMjgrdzP">form</a>.</p>
+			</li>
+		</ul>
+	</div>
 </section>
