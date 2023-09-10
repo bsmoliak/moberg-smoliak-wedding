@@ -5,4 +5,4 @@ description: A collection of information for visitors to the Twin Cities.
 image: pic-guide.jpg
 ---
 
-Check back soon for updates.
+Check back Tuesday, September 12 for updates.

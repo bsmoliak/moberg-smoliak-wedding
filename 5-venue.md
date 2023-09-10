@@ -5,4 +5,4 @@ description: More about the venue, Westwood Hills Nature Center.
 image: pic-venue.jpg
 ---
 
-Check back soon for updates.
+Check back Sunday, September 10 for updates.
