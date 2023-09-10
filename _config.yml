@@ -1,28 +1,30 @@
 # Site settings
-title: Spectral
-email: youremailaddress@gmail.com
-description: The Jekyll version of the Spectral theme by HTML5 UP.
-baseurl: "/spectral-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: Moberg & Smoliak Wedding
+email: twoten.ninth.ave@gmail.com
+description: September 23rd, 2023
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.commoncause.is" # the base hostname & protocol for your site
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 3
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 5
 
 # Misc settings
 featured-image-source:
+sass:
+    sass_dir: _sass
 
 # Social settings
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+gitlab_url:
+googleplus_url:
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url:
 
 # Build settings
 markdown: kramdown
